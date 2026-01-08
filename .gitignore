@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.vscode/
+.idea/
+*.log
+
+# Airflow
+logs/
+airflow.db
+webserver_config.py
+
+# Data outputs
+files/
+data/
+*.parquet
+*.crc
+_SUCCESS
